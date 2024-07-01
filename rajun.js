@@ -1,3 +1,82 @@
+license();
+function license() {
+  function _0x47d409(_0x23c4b5) {
+    function _0x1bcf84(_0x33472a) {
+      try {
+        return btoa(atob(_0x33472a)) == _0x33472a;
+      } catch (_0x390efc) {
+        return false;
+      }
+    }
+    if (_0x1bcf84(_0x23c4b5)) {
+      _0x23c4b5 = atob(_0x23c4b5);
+      _0x23c4b5 = _0x23c4b5.replaceAll("XXX", '.');
+      _0x23c4b5 = _0x23c4b5.replaceAll('YY', '-');
+      _0x23c4b5 = _0x23c4b5.replaceAll('O5', 'a');
+      _0x23c4b5 = _0x23c4b5.replaceAll('E4', 'i');
+      _0x23c4b5 = _0x23c4b5.replaceAll('U3', 'u');
+      _0x23c4b5 = _0x23c4b5.replaceAll('I2', 'e');
+      _0x23c4b5 = _0x23c4b5.replaceAll('A1', 'o');
+      function _0x2b5a3f(_0x20a7f5) {
+        const _0x19a878 = _0x20a7f5.split('');
+        const _0x430a07 = _0x19a878.reverse();
+        const _0x539cdb = _0x430a07.join('');
+        return _0x539cdb;
+      }
+      _0x23c4b5 = _0x2b5a3f(_0x23c4b5);
+      return _0x23c4b5;
+    } else {
+      return '';
+    }
+  }
+  function _0x4fe318(_0x29b453) {
+    var _0x5f5dc7 = "            <link href=\"https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap\" rel=\"stylesheet\">            <style>hr { margin:0!important; } body { padding: 0px!important; } * { font-family: \"Rubik\", sans-serif; font-weight:400; box-sizing:border-box;margin:0;padding:0; text-decoration:none; color:#636363; } b { font-weight: 500; color:#232323; }</style>            <div id=\"notice_html\" style=\"display:flex;background:#fafafa;min-height:100vh;text-align:center;\">                <div style=\"margin:auto;width:480px;max-width:80%;background:white;padding:30px;border-radius:10px;border:1px solid #ddd;\">                    <svg style=\"fill:#636363;width:100px;height:100px;display:block;margin:0 auto 20px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path d=\"M228.9 79.9L51.8 403.1C40.6 423.3 55.5 448 78.9 448h354.3c23.3 0 38.2-24.7 27.1-44.9L283.1 79.9c-11.7-21.2-42.5-21.2-54.2 0zM273.6 214L270 336h-28l-3.6-122h35.2zM256 402.4c-10.7 0-19.1-8.1-19.1-18.4s8.4-18.4 19.1-18.4 19.1 8.1 19.1 18.4-8.4 18.4-19.1 18.4z\"/></svg>                    <h2><b>Peringatan</b> :</h2>                    <br>                    <p>" + _0x29b453 + "</p>                    <br>                    <hr style=\"border:0;border-top:1px solid #ddd;\">                    <br>                    <a href=\"https://lapak.kangrian.net/" + "lokal-market-blogger-template" + "\" target=\"_blank\" style=\"opacity:.7;font-size:70%;letter-spacing:1px;\">https://lapak.kangrian.net</a>                </div>            </div>        ";
+    return document.body.innerHTML = _0x5f5dc7;
+  }
+  if (typeof $license_key === "undefined") {
+    _0x4fe318("Dilarang menghapus variable <b>$license_key</b>..");
+  } else {
+    if (location.hostname.indexOf('localhost') != -0x1 || location.hostname.indexOf(".blogspot.com") != -0x1 || location.hostname.indexOf(".blogger.com") != -0x1) {
+      console.log("Developed by. https://kangrian.net ( Free / Trial Version )");
+      var _0x1fd8d0 = document.getElementById("copyright");
+      if (_0x1fd8d0 === null) {
+        _0x4fe318("<b>Hargailah Hak Cipta</b><br><br><small>Gunakan \"Lisensi Premium\" untuk menghapus credit.</small><br><br><small>#ERR_COPYRIGHT</small>");
+      } else {
+        var _0x116af5 = new Date().getFullYear();
+        _0x1fd8d0.innerHTML = "&#0169;" + _0x116af5 + " &#8212; Made with. <a href=\"https://lapak.kangrian.net/" + "lokal-market-blogger-template" + "\" target=\"_blank\"><b>Kr</b></a>";
+        _0x1fd8d0.setAttribute("style", "display:inline-block!important;opacity:1!important;position:static!important;visibility:visible!important;text-indent:0px!important;color:currentColor!important");
+      }
+    } else {
+      if ($license_key === '') {
+        _0x4fe318("<b>Kode Lisensi</b> dibutuhkan..<br><br><small>#ERR_LICENSE</small>");
+      } else {
+        const _0xecf61 = _0x47d409($license_key).split('|')[0x0];
+        const _0x1a63d3 = _0x47d409($license_key).split('|')[0x1];
+        if (_0xecf61 == '' || _0xecf61 == undefined) {
+          _0x4fe318("<b>Kode Lisensi</b> yang digunakan tidak valid.</b><br><br><small>#ERR_KEY</small>");
+        } else {
+          if (location.hostname.indexOf(_0xecf61) == -0x1) {
+            _0x4fe318("<b>Kode Lisensi</b> hanya bisa digunakan pada website dengan domain : <b>" + _0xecf61 + '</b><br><br><small>#ERR_DOMAIN</small>');
+          } else {
+            if (_0x1a63d3 != "lokal-market-blogger-template") {
+              function _0x43aa4b(_0x46bf93) {
+                _0x46bf93 = _0x46bf93.split(" ");
+                for (var _0x2d0625 = 0x0; _0x2d0625 < _0x46bf93.length; _0x2d0625++) {
+                  _0x46bf93[_0x2d0625] = _0x46bf93[_0x2d0625].charAt(0x0).toUpperCase() + _0x46bf93[_0x2d0625].slice(0x1);
+                }
+                _0x46bf93 = _0x46bf93.join(" ");
+                return _0x46bf93;
+              }
+              _0x4fe318("<b>Kode Lisensi</b> hanya bisa digunakan untuk <b>" + _0x43aa4b("lokal-market-blogger-template".replaceAll('-', " ")) + "</b><br><br><small>#ERR_ITEM</small>");
+            } else {
+              console.log("Developed by. https://kangrian.net ( Premium Version )");
+            }
+          }
+        }
+      }
+    }
+  }
+}
 window.onload = function () {
   if (typeof jQuery == 'undefined') {
     var _0x33ad34 = document.createElement("script");
